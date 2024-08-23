@@ -5,7 +5,7 @@ import {Link} from "expo-router";
 export default function App() {
   return (
     <View className="flex flex-1  items-center justify-center bg-blue-300" >
-      <Text className="text-3xl">Aora!</Text>
+      <Text className="text-3xl font-plight">Aora!</Text>
       <StatusBar style="auto" />
       <Link href="/profile" style={{color:'blue'}} >Go to Profile</Link>
     </View>
